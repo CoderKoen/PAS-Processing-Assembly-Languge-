@@ -1,0 +1,8 @@
+0x00 = NULL = No Instruction
+0x01 = LDP = Load into Register P
+0x02 = LDR = Load into Register R
+0x03 = DOT = point();
+0x04 = PRTCHR = println(ASCII)
+0x05 = JTB = Jump to the nth byte in the program
+0x06 = JIZ = jump if the 0 opcode is on
+0x07 = BKGRD = sets background to a rgb value
