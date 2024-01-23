@@ -20,3 +20,4 @@ When using the runner the code can put stuff on a 255 by 255 px canvas.
 0x06 = JIZ byte = jump if the 0 opcode is on
 ---
 0x07 = BKGRD r g b = sets background to a rgb value
+---
