@@ -2,7 +2,6 @@
   Processing Assembly Language
   By Koen
   Made in Processing
-  January, 21, 2024
   
   Processing Refrence:
   https://processing.org/reference
