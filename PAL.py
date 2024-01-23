@@ -2,7 +2,6 @@
   Processing Assembly Language Assembler
   By Koen
   Made in Python
-  January, 22, 2024
   
   Processing Refrence:
   https://processing.org/reference
@@ -50,6 +49,11 @@ for i in range(len(asm_list)):
     elif asm_list[i] == "JIZ":
         binary_file.append(0x06)
         binary_file.append(int(asm_list[i+1], 16))
+    elif asm_list[i] == "BKGRD":
+        binary_file.append(0x07)
+        binary_file.append(int(asm_list[i+1], 16))
+        binary_file.append(int(asm_list[i+2], 16))
+        binary_file.append(int(asm_list[i+3], 16))
 
 print_hexlist(binary_file)
 
